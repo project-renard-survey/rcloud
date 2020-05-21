@@ -6,6 +6,11 @@
    `mimetype` and if no `content` is provided it is read from `filename`
    automatically (#2722)
 
+### Features
+ * Compatible with HTTP Basic Authentication for `github.com`. The option is `github.use.basic.auth`
+   and defaults `false` for compatibility with
+   [rcloud-gist-services](https://github.com/att/rcloud-gist-services)
+
 ### Bugfixes
  * `rcloud.download.file()` failed to insert newlines between
     character vector elements (#2721)
